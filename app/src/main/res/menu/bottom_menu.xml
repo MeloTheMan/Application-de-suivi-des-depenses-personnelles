@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+    android:title="Accueil"
+    android:icon="@drawable/apercuu"/>
+
+    <item android:id="@+id/nav_apercu"
+        android:title="Aperçus"
+        android:icon="@drawable/apercuu"/>
+
+    <item android:id="@+id/nav_transaction"
+        android:title="Transactions"
+        android:icon="@drawable/compteb"/>
+
+    <item android:id="@+id/nav_compte"
+        android:title="Comptes"
+        android:icon="@drawable/compteb"/>
+</menu>
