@@ -127,21 +127,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.731" />
 
-    <Button
-        android:id="@+id/buttonup"
-        android:layout_width="124dp"
-        android:layout_height="50dp"
-        android:outlineAmbientShadowColor="#D2FF9E"
-        android:text="Sign In"
-
-        android:textColorLink="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.876" />
-
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="48dp"
@@ -257,5 +242,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.567"
         app:srcCompat="@drawable/trait" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="124dp"
+        android:layout_height="50dp"
+        android:text="Sign In"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="597dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

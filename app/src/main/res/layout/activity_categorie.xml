@@ -293,6 +293,16 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="27dp" />
 
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:translationX="15dp"
+        android:translationY="9dp"
+        app:srcCompat="@drawable/juste"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="15dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
