@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="450dp"
-        android:layout_height="560dp"
+        android:layout_width="427dp"
+        android:layout_height="365dp"
         android:translationX="14dp"
         android:translationY="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,8 +19,8 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/logo21" />
+        app:layout_constraintVertical_bias="0.805"
+        app:srcCompat="@drawable/coin2" />
 
     <ImageView
         android:id="@+id/imageView8"

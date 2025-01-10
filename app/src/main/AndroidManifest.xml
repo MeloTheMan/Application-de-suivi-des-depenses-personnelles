@@ -13,7 +13,28 @@
         android:theme="@style/Theme.Testdepense"
         tools:targetApi="31">
         <activity
-            android:name=".accueilll"
+            android:name=".transferttransaction"
+            android:exported="false" />
+        <activity
+            android:name=".revenunewtransaction"
+            android:exported="false" />
+        <activity
+            android:name=".transaction"
+            android:exported="false" />
+        <activity
+            android:name=".apercu"
+            android:exported="false" />
+        <activity
+            android:name=".compte"
+            android:exported="false" />
+        <activity
+            android:name=".modifiertransaction"
+            android:exported="false" />
+        <activity
+            android:name=".calendrier"
+            android:exported="false" />
+        <activity
+            android:name=".Accueil"
             android:exported="false" />
         <activity
             android:name=".categorie"
@@ -22,10 +43,10 @@
             android:name=".accueil"
             android:exported="false" />
         <activity
-            android:name=".logup"
+            android:name=".Logup"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
