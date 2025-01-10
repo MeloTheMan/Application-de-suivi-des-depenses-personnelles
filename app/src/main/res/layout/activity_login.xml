@@ -116,6 +116,49 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.743" />
 
+<<<<<<< HEAD
+=======
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="122dp"
+        android:layout_height="38dp"
+        android:fontFamily="serif"
+        android:text="Password:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="48dp"
+        android:layout_height="87dp"
+        android:translationY="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/google" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="74dp"
+        android:layout_height="80dp"
+        android:translationY="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/facebook" />
+
+>>>>>>> origin/test
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="53dp"
@@ -198,11 +241,16 @@
         android:layout_width="124dp"
         android:layout_height="50dp"
         android:text="Sign In"
+<<<<<<< HEAD
         android:translationX="8dp"
         android:translationY="255dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+=======
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="597dp" />
+>>>>>>> origin/test
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -34,7 +34,11 @@
             android:name=".calendrier"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
             android:name=".Accueil"
+=======
+            android:name=".accueilll"
+>>>>>>> origin/test
             android:exported="false" />
         <activity
             android:name=".categorie"
