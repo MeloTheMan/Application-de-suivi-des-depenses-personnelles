@@ -1,0 +1,28 @@
+<div class="chart-container">
+  <ion-segment [(ngModel)]="selectedPeriod" (ionChange)="onPeriodChange()">
+    <ion-segment-button value="week">
+      <ion-label>Semaine</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="month">
+      <ion-label>Mois</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="year">
+      <ion-label>Année</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <!-- Ajout d'un message d'erreur -->
+  <div *ngIf="error" class="error-message ion-text-center ion-padding">
+    <p>{{ error }}</p>
+    <ion-button (click)="refreshData()">Réessayer</ion-button>
+  </div>
+
+  <div class="chart-wrapper" [class.hidden]="!hasData">
+    <canvas #chartCanvas></canvas>
+  </div>
+  
+  <div *ngIf="loading" class="loading-message ion-text-center ion-padding">
+    <ion-spinner name="dots"></ion-spinner>
+    <p>Chargement des données...</p>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Sélectionner un contact</ion-title>
+    <ion-buttons slot="start">
+      <ion-button (click)="dismiss()">
+        <ion-icon name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button (click)="openNewContactModal()">
+        <ion-icon name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar
+      placeholder="Rechercher"
+      [debounce]="300"
+      (ionInput)="handleSearch($event)"
+      (ionClear)="clearSearch()"
+      [animated]="true"
+      mode="ios">
+    </ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-skeleton-text *ngIf="loading" class="ion-text-center"></ion-skeleton-text>
+<ion-list *ngIf="!loading">
+    <ion-item *ngFor="let contact of filteredContacts" (click)="selectContact(contact)" button>
+      <ion-label>
+        <h2>{{ contact.name }}</h2>
+        <p>{{ contact.phone }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <div *ngIf="!isSearching && !filteredContacts.length" class="empty-state ion-padding ion-text-center">
+    <ion-icon name="person" size="large"></ion-icon>
+    <p>Aucun contact trouvé</p>
+    <ion-button fill="clear" (click)="openNewContactModal()">
+      Ajouter un contact
+    </ion-button>
+  </div>
+</ion-content>

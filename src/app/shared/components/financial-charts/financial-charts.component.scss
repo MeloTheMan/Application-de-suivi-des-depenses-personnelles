@@ -1,0 +1,10 @@
+.chart-wrapper {
+    margin-top: 16px;
+    height: 300px;
+    &.hidden {
+      display: none;
+    }
+  }
+  .error-message {
+    color: var(--ion-color-danger);
+  }
